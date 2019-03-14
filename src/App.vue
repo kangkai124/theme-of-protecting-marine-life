@@ -48,7 +48,7 @@
           IDO海上风机一体化设计平台
         </Header>
         <Content :style="{margin: '20px', background: '#fff', minHeight: '260px'}">
-          Content
+          This is Content
         </Content>
       </Layout>
     </Layout>
@@ -142,12 +142,14 @@ html, body {
   padding-top: 10px;
 
   img {
-    height: 32px;
+    width: 30px;
   }
 
   .ido-logo {
-    height: 40px;
+    width: 90px;
+    transition: width .2s ease;
   }
+
 }
 .layout-header-bar{
     background: #fff;
@@ -190,5 +192,9 @@ html, body {
     transition: font-size .2s ease .2s, transform .2s ease .2s;
     vertical-align: middle;
     font-size: 22px;
+}
+.ivu-layout-sider-collapsed .ido-logo{
+  transition: width .2s ease;
+  width: 0px;
 }
 </style>
