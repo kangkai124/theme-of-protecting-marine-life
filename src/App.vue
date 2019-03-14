@@ -24,7 +24,7 @@
           :class="menuitemClasses">
           <MenuItem name="1-1">
             <Icon type="ios-navigate"></Icon>
-            <span>项目管理</span>
+            <span>Option 1</span>
           </MenuItem>
           <MenuItem name="1-2">
             <Icon type="ios-search"></Icon>
@@ -45,7 +45,7 @@
             type="md-menu"
             size="24"
             @click.native="collapsedSider" />
-          IDO海上风机一体化设计平台
+          Protecting Marine life
         </Header>
         <Content :style="{margin: '20px', background: '#fff', minHeight: '260px'}">
           This is Content
@@ -154,6 +154,7 @@ html, body {
 .layout-header-bar{
     background: #fff;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    font-size: 20px;
 }
 .layout-logo-left{
     width: 90%;

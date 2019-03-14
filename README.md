@@ -1,1 +1,5 @@
-## IDO 海上风机一体化设计平台
+## IDO - the theme of protecting Marine life
+
+Embrace the blue ocean, cherish the cradle of life
+
+![UI](./UI.jpg)
